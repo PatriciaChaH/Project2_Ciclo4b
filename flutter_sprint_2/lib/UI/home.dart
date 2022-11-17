@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: const MyHomePage(title: 'Shopping'),
+      home: const MyHomePage(title: 'Shopping Autos a escala'),
       debugShowCheckedModeBanner: false,
     );
   }
