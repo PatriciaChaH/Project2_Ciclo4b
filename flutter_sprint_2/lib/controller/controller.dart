@@ -1,4 +1,4 @@
-import 'package:flutter_sprint_2/clases/products.dart';
+import 'package:flutter_sprint_2/clases/productslist.dart';
 import 'package:get/get.dart';
 
 class controller extends GetxController {
