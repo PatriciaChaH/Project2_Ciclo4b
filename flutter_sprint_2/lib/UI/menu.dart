@@ -43,7 +43,7 @@ class _menuState extends State<menu> {
                 },
               ),
               ListTile(
-                leading: Icon(Icons.shopping_cart_checkout_outlined),
+                leading: Icon(Icons.add_shopping_cart),
                 title: Text("Comprar"),
                 trailing: Icon(Icons.keyboard_arrow_right_sharp),
                 onTap: () {
@@ -52,8 +52,8 @@ class _menuState extends State<menu> {
                 },
               ),
               ListTile(
-                leading: Icon(Icons.shopify_sharp),
-                title: Text("Productos"),
+                leading: Icon(Icons.shopping_bag_outlined),
+                title: Text("Mi carrito"),
                 trailing: Icon(Icons.keyboard_arrow_right_sharp),
                 onTap: () {
                   Navigator.pop(context);
